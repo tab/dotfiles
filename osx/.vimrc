@@ -16,3 +16,5 @@ set smartindent
 set smarttab
 set tabstop=2
 set undodir=~/.vim/extras/undofiles
+
+let g:ctrlp_custom_ignore = '\.bundle$\|bin$\|\.git$\|.swp$'
