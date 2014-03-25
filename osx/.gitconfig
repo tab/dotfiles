@@ -11,3 +11,10 @@
 [alias]
   hist= log --all --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
   st = status
+
+[push]
+  default = simple
+
+[core]
+  excludesfile = /Users/USERNAME/.gitignore_global
+  editor = /usr/bin/vim
